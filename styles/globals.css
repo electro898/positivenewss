@@ -25,6 +25,15 @@ a {
   }
 }
 
+@media (prefers-color-scheme: white) {
+  html {
+    color-scheme: white;
+  }
+  body {
+    color: black;
+    background: white;
+  }
+}
 /* post page */
 
 .post-container {
